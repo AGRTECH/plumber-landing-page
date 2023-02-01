@@ -4,10 +4,47 @@
 }
 
 .plumber-bg {
-  width: 100%;
+  width: 100vw;
   z-index: -90;
   position: absolute;
   left: 0;
   top: 0;
-  height: auto;
+  height: 550px;
+}
+
+.nav-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.home-firstline {
+  font-size: 50px;
+  font-weight: bold;
+  width: 30%;
+  color: white;
+}
+
+.home-container {
+  margin-left: 150px;
+}
+
+.home-secondline {
+  margin-top: 30px;
+  color: white;
+  font-size: 25px;
+  font-weight: lighter;
+  width: 30%;
+}
+
+.home-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+
+.home-button:hover {
+  opacity: 0.3;
+  cursor: pointer;
 }
